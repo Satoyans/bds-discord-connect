@@ -7,7 +7,7 @@ type config_type = {
 	chat_webhook_url: string;
 	xbox_api_email: string;
 	xbox_api_pass: string;
-	bdsx_bat_path: string;
+	bds_bat_path: string;
 	backup_from_dir: string;
 	backup_at_dir: string;
 	backup_interval_min: string;

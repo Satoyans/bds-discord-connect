@@ -162,8 +162,8 @@ function main() {
 		if (diff > 5 * 1000 && diff < 60 * 60 * 1000) {
 			SFBDS.onMessage.emit("event", { playerName: "Notice", message: "Server stoped?" });
 			exec(`taskkill /im cmd.exe /fi "WINDOWTITLE eq bedrock_server*"`);
-			console.log(`start "${config.bdsx_bat_path}"`);
-			exec(`start "bds-run.bat" "${config.bdsx_bat_path}"`);
+			console.log(`start "${config.bds_bat_path}"`);
+			exec(`start "bds-run.bat" "${config.bds_bat_path}"`);
 			SFBDS.time = 0;
 		}
 	}, 1000);
