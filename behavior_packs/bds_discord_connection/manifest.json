@@ -1,0 +1,32 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "bds_discord_connection",
+		"description": "23/12/15 v1.0.1",
+		"min_engine_version": [1, 20, 40],
+		"uuid": "37718182-0685-4ce9-81e7-2d16fcd40747",
+		"version": [1, 0, 1]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "71bd58c6-61c9-4747-85ca-75d6e26c20bb",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 1]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.8.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-net",
+			"version": "1.0.0-beta"
+		}
+	],
+	"metadata": {
+		"author": "discord:@satoyan_"
+	}
+}
